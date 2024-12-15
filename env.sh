@@ -8,6 +8,7 @@ echo "window._env_ = {" > $CONFFILE
 echo "  REACT_APP_APIHOSTPORT: \"$REACT_APP_APIHOSTPORT\"" >> $CONFFILE
 echo "}" >> $CONFFILE
 
+
 cat $CONFFILE
 
 # ignore the rest of file
